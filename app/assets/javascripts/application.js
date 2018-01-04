@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require turbolinks
 //= require jquery3
+//= require popper
 //= require_tree .
 
 /*
@@ -24,3 +25,15 @@ $('#bottom_img').dblclick(function(){
     $('#top_img').toggle();
 });
 */
+
+var ref = $('#btn-sdl-homepage');
+var popup = $('#popup');
+
+popup.hide();
+
+ref.dblclick(function (){
+	popup.show();
+	var popper = new Popper(ref, popup, {
+		placement: 'top'
+	})
+});

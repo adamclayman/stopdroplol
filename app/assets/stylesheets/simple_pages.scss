@@ -11,3 +11,13 @@ h1 {
 .tenor-gif-embed {
 	margin: 30px;
 }
+
+hr.hr-style-one {
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+}
+
+hr.hr-style-one:after {
+    content: "\00a0"; 
+}
