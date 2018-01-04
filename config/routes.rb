@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'simple_pages/beta_testers'
+
+  get 'simple_pages/media'
+
+  get 'simple_pages/university_students'
+
+  get 'simple_pages/university_parents'
+
+  get 'simple_pages/university_lawyers'
+
   root 'simple_pages#index'
 
   get 'simple_pages/index'
