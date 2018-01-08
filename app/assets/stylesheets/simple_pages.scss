@@ -21,3 +21,15 @@ hr.hr-style-one {
 hr.hr-style-one:after {
     content: "\00a0"; 
 }
+
+// Carousel
+
+div.carousel-caption h5 {
+	text-shadow: 1px 1px #E87600;
+	color: #111;	
+}
+
+div.carousel-caption p {
+	text-shadow: 1px 1px #E87600;
+	color: #111;
+}
