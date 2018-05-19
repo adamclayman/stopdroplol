@@ -28,8 +28,6 @@ gem 'jbuilder', '~> 2.5'
 # Use popper.js for heads-up post on 'Stop, Drop, Lol' action button
 gem 'popper_js', '~> 1.12.9'
 
-gem 'nokogiri', '~> 1.8.2'
-
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
